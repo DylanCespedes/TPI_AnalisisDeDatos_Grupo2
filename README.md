@@ -1,52 +1,44 @@
+# Análisis del Churn de clientes en una empresa de telecomunicaciones
 
-# Analisis del Churn de clientes en una empresa de Telecomunicaciones
+**Materia:** Introducción al Análisis de Datos  
+**Comisión:** 143
 
+## Integrantes
 
-#### Materia: Introduccion al Analisis de Datos
-
-### Comision: 143
-
-
-### Integrantes:
-- Cespedes, Dylan
+- Céspedes, Dylan
 - Samaniego, Mateo
 - Basso, Santiago
-- Quiroz Mallon, Juan 
+- Quiroz Mallon, Juan
 
+## Problema de negocio
 
-## Notebook de Google Colab
+Las empresas de telecomunicaciones buscan comprender por qué algunos clientes dejan de utilizar sus servicios. En este proyecto analizamos datos de clientes para identificar características relacionadas con el abandono del servicio (Churn) y proponer posibles mejoras para su retención.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DylanCespedes/TPI_AnalisisDeDatos_Grupo2/blob/main/TPI%20Analisis%20de%20datos/notebooks/TPI_Grupo2.ipynb)
+## Notebook en Google Colab
 
---- 
-## Problema central de negocio
+[![Abrir en Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DylanCespedes/TPI_AnalisisDeDatos_Grupo2/blob/main/TPI%20Analisis%20de%20datos/notebooks/TPI_Grupo2.ipynb)
 
+## Tecnologías y librerías utilizadas
 
-Las empresas de telecomunicaciones necesitan saber conocer porque algunos clientes deciden dejar de usar sus servicios. En este proyecto se busca analizar la informacion de los clientes para identificar que caracteristicas pueden estar relacionadas con la cancelacion de sus servicios. 
-De esta manera, se intenta comprender la razon de las cancelaciones y en base a ello optar por implementar modificaciones para mejorar la retencion de clientes.
+- **Python:** lenguaje de programación utilizado para el análisis.
+- **Pandas y NumPy:** manipulación, transformación y análisis de los datos.
+- **Matplotlib y Seaborn:** creación de gráficos.
+- **Jupyter Notebook y Google Colab:** desarrollo y ejecución del análisis.
+- **Kaggle API:** para la descarga del conjunto de datos.
+- **Git y GitHub:** control de versiones y almacenamiento del proyecto.
 
----
+## Estructura del repositorio
 
-## Librerias y Herramientas utilizadas para el desarollo del proyecto 
+```text
+TPI_AnalisisDeDatos_Grupo2/
+├── README.md
+└── TPI Analisis de datos/
+    ├── data/
+    │   └── WA_Fn-UseC_-Telco-Customer-Churn.xls
+    ├── docs/
+    │   └── informe_tecnico_grupo2-entrega.pdf
+    └── notebooks/
+        └── TPI_Grupo2.ipynb
+```
 
-Para el desarollo del proyecto se utilizaron suguientes librerias y herramientas:
-
-- Python: lenguaje de programacion utilizado para el analisis de datos
-
-- Pandas: libreria de python utilizada para la manipulacion, limpieza, transformacion y analisis de los datos.
-
-<!-- Librerias para la construccion de graficos  -->
-
-
-- Jupyter Notebook: entorno para el desarollo y documentacion del analisis 
-
-- Google colab: herramienta para la ejecucion del notebook
-
-- Git / Github: utilizado para el almacenamiento del proyecto  
-
---- 
-
-<!--  -->
-## Estructura del proyecto
-
-- 
+Para explorar el proyecto, se debe abrir el **notebook** desde el botón de Google Colab y consultar el **informe técnico** en la carpeta `docs`, donde se presentan los resultados y las conclusiones del análisis. La carpeta `data` esta organizada en dos subcarpetas: `raw`, destinada a los datos originales, y `processed`, destinada a los datos procesados durante el análisis.
