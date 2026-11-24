@@ -36,7 +36,7 @@ TPI_AnalisisDeDatos_Grupo2/
     ├── data/
     │   └── WA_Fn-UseC_-Telco-Customer-Churn.xls
     ├── docs/
-    │   └── informe_tecnico_grupo2-entrega.pdf
+    │   └── InformeTPI.pdf
     └── notebooks/
         └── TPI_Grupo2.ipynb
 ```
